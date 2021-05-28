@@ -1,8 +1,12 @@
 
 ## **Bio**
-Tigran Khachatryan was born in Yerevan, Armenia. He started his Master’s studies at the Architecture department of Aalto University. His Master’s thesis: “Architectural Context in the Age of Big Data” examined the changes that occurred in the understanding of architectural context with the arrival of the digital paradigm. Currently, He is a Ph.D. student at Design of Structures pursuing his interest in architectural theory. His research interests include Geometry, Architecture, Information Theory, and Computer Science.
+---
+### **About Me**
+I am a Researcher/Ph.D. Candidate at Aalto University.
+My research interests include Geometry, Architecture, Information Theory, and Computer Science.
 
 ## **Social Links**
+[![Facebook Badge](https://img.shields.io/badge/Facebook-1DA1F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/tigran.khachatryan.397)
 [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/geometrein)
 [![Kaggle Badge](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/geometrein)
 [![Google Badge](https://img.shields.io/badge/Google_scholar-303030?style=for-the-badge&logo=google&logoColor=white)](https://scholar.google.com/citations?user=BT3ZhYkAAAAJ&hl=en)
