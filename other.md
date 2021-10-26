@@ -25,7 +25,7 @@ My research interests include Geometry, Architecture, Information Theory, and Co
 [![Archicad](https://img.shields.io/badge/Archicad-14354C?style=for-the-badge&logo=&logoColor=white)]()
 [![Revit](https://img.shields.io/badge/Revit-14354C?style=for-the-badge&logo=&logoColor=white)]()
 [![Rhino](https://img.shields.io/badge/Rhino-14354C?style=for-the-badge&logo=&logoColor=white)]()
-[![Grasshoper](https://img.shields.io/badge/Grasshoper-14354C?style=for-the-badge&logo=&logoColor=white)]()
+[![Grasshoper](https://img.shields.io/badge/Grasshopper-14354C?style=for-the-badge&logo=&logoColor=white)]()
 [![Autocad](https://img.shields.io/badge/Autocad-14354C?style=for-the-badge&logo=&logoColor=white)]()
 [![Adobe Suite](https://img.shields.io/badge/Adobe_Suite-14354C?style=for-the-badge&logo=&logoColor=white)]()
 ---
