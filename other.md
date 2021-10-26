@@ -27,19 +27,19 @@ My research interests include Geometry, Architecture, Information Theory, and Co
 [![Colab](https://img.shields.io/badge/Colab-14354C?style=for-the-badge&logo=GoogleColab&logoColor=white)](https://colab.research.google.com/)
 [![NetworkX](https://img.shields.io/badge/NetworkX-14354C?style=for-the-badge&logo=networkx&logoColor=white)](https://networkx.org/)
 [![Osmnx](https://img.shields.io/badge/osmnx-14354C?style=for-the-badge&logo=osmnx&logoColor=white)](https://geoffboeing.com/2016/11/osmnx-python-street-networks/)
-[![Go](https://img.shields.io/badge/GO-00ADD8?style=for-the-badge&logo=go&logoColor=white)]()
-[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)]()
-[![SQL](https://img.shields.io/badge/SQL-14354C?style=for-the-badge&logo=PostgreSQL&logoColor=white)]()
-[![GIT](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)]()
+[![Go](https://img.shields.io/badge/GO-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://golang.org/)
+[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
+[![SQL](https://img.shields.io/badge/SQL-14354C?style=for-the-badge&logo=PostgreSQL&logoColor=white)](https://en.wikipedia.org/wiki/SQL)
+[![GIT](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 
 ### BIM & CAD
-[![Solibri](https://img.shields.io/badge/Solibri-14354C?style=for-the-badge&logo=solibri&logoColor=white)]()
-[![Archicad](https://img.shields.io/badge/Archicad-14354C?style=for-the-badge&logo=&logoColor=white)]()
-[![Revit](https://img.shields.io/badge/Revit-14354C?style=for-the-badge&logo=&logoColor=white)]()
-[![Rhino](https://img.shields.io/badge/Rhino-14354C?style=for-the-badge&logo=&logoColor=white)]()
-[![Grasshoper](https://img.shields.io/badge/Grasshopper-14354C?style=for-the-badge&logo=&logoColor=white)]()
-[![Autocad](https://img.shields.io/badge/Autocad-14354C?style=for-the-badge&logo=&logoColor=white)]()
-[![Adobe Suite](https://img.shields.io/badge/Adobe_Suite-14354C?style=for-the-badge&logo=&logoColor=white)]()
+[![Solibri](https://img.shields.io/badge/Solibri-14354C?style=for-the-badge&logo=solibri&logoColor=white)](https://www.solibri.com/)
+[![Archicad](https://img.shields.io/badge/Archicad-14354C?style=for-the-badge&logo=&logoColor=white)](https://graphisoft.com/solutions/archicad)
+[![Revit](https://img.shields.io/badge/Revit-14354C?style=for-the-badge&logo=&logoColor=white)](https://www.autodesk.com/)
+[![Rhino](https://img.shields.io/badge/Rhino-14354C?style=for-the-badge&logo=&logoColor=white)](https://www.rhino3d.com/)
+[![Grasshoper](https://img.shields.io/badge/Grasshopper-14354C?style=for-the-badge&logo=&logoColor=white)](https://en.wikipedia.org/wiki/Grasshopper_3D#:~:text=Grasshopper%20is%20a%20visual%20programming,dragging%20components%20onto%20a%20canvas.)
+[![Autocad](https://img.shields.io/badge/Autocad-14354C?style=for-the-badge&logo=&logoColor=white)](https://www.autodesk.com/)
+[![Adobe Suite](https://img.shields.io/badge/Adobe_Suite-14354C?style=for-the-badge&logo=&logoColor=white)](https://www.adobe.com/creativecloud.html)
 ---
 
 
