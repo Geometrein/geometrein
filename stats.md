@@ -45,8 +45,8 @@ My research interests include Geometry, Architecture, Information Theory, and Co
 [![FastAPI](https://img.shields.io/badge/FastApi-436b95?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 
 #### Databases
-[![SQLite](https://img.shields.io/badge/SQLite-14354C?style=for-the-badge&logo=sqlite&logoColor=white)](https://en.wikipedia.org/wiki/SQL)
-[![MySQL](https://img.shields.io/badge/MySQL-14354C?style=for-the-badge&logo=mysql&logoColor=white)](https://www.sqlite.org/index.html)
+[![SQLite](https://img.shields.io/badge/SQLite-14354C?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/index.html)
+[![MySQL](https://img.shields.io/badge/MySQL-14354C?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Mongodb](https://img.shields.io/badge/Mongodb-14354C?style=for-the-badge&logo=mongoDB&logoColor=white)](https://www.mongodb.com/)
 [![Postgress](https://img.shields.io/badge/postgresql-14354C?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
