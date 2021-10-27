@@ -23,6 +23,7 @@ My research interests include Geometry, Architecture, Information Theory, and Co
 [![Go](https://img.shields.io/badge/GO-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://golang.org/)
 [![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
 
+
 #### Data Science
 [![Pandas](https://img.shields.io/badge/Pandas-436b95?style=for-the-badge&logo=Pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Numpy](https://img.shields.io/badge/Numpy-436b95?style=for-the-badge&logo=Numpy&logoColor=white)](https://numpy.org/)
@@ -31,10 +32,12 @@ My research interests include Geometry, Architecture, Information Theory, and Co
 [![NetworkX](https://img.shields.io/badge/NetworkX-436b95?style=for-the-badge&logo=networkx&logoColor=white)](https://networkx.org/)
 [![Osmnx](https://img.shields.io/badge/osmnx-436b95?style=for-the-badge&logo=osmnx&logoColor=white)](https://geoffboeing.com/2016/11/osmnx-python-street-networks/)
 
+
 #### Visualization
 [![MatPlotLib](https://img.shields.io/badge/Matplotlib-436b95?style=for-the-badge&logo=matplotlib&logoColor=white)](https://plotly.com/)
 [![Plotly](https://img.shields.io/badge/Plotly-436b95?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
 [![Dash](https://img.shields.io/badge/Dash-436b95?style=for-the-badge&logo=dash&logoColor=white)](https://plotly.com/dash/)
+
 
 #### Web Development
 [![Flask](https://img.shields.io/badge/flask-436b95?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/en/2.0.x/)
@@ -43,10 +46,12 @@ My research interests include Geometry, Architecture, Information Theory, and Co
 
 #### Databases
 [![SQLite](https://img.shields.io/badge/SQLite-14354C?style=for-the-badge&logo=sqlite&logoColor=white)](https://en.wikipedia.org/wiki/SQL)
-[![MySQL](https://img.shields.io/badge/MySQL-14354C?style=for-the-badge&logo=mysql&logoColor=white)](https://en.wikipedia.org/wiki/SQL)
-[![Mongodb](https://img.shields.io/badge/Mongodb-14354C?style=for-the-badge&logo=mongoDB&logoColor=white)](https://en.wikipedia.org/wiki/SQL)
-[![Postgress](https://img.shields.io/badge/postgresql-14354C?style=for-the-badge&logo=postgresql&logoColor=white)](https://en.wikipedia.org/wiki/SQL)
-#### Other
+[![MySQL](https://img.shields.io/badge/MySQL-14354C?style=for-the-badge&logo=mysql&logoColor=white)](https://www.sqlite.org/index.html)
+[![Mongodb](https://img.shields.io/badge/Mongodb-14354C?style=for-the-badge&logo=mongoDB&logoColor=white)](https://www.mongodb.com/)
+[![Postgress](https://img.shields.io/badge/postgresql-14354C?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+
+
+#### Collaboration
 [![Jupyter](https://img.shields.io/badge/Jupyter-436b95?style=for-the-badge&logo=Jupyter&logoColor=white)](https://jupyter.org/)
 [![Colab](https://img.shields.io/badge/Colab-436b95?style=for-the-badge&logo=GoogleColab&logoColor=white)](https://colab.research.google.com/)
 [![GIT](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
