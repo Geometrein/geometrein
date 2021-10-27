@@ -19,7 +19,7 @@ My research interests include Geometry, Architecture, Information Theory, and Co
 ### Computation
 [![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)]()
 [![Pandas](https://img.shields.io/badge/Pandas-14354C?style=for-the-badge&logo=Pandas&logoColor=white)](https://pandas.pydata.org/)
-[![Numpy](https://img.shields.io/badge/Pandas-14354C?style=for-the-badge&logo=Numpy&logoColor=white)](https://numpy.org/)
+[![Numpy](https://img.shields.io/badge/Numpy-14354C?style=for-the-badge&logo=Numpy&logoColor=white)](https://numpy.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-14354C?style=for-the-badge&logo=TensorFlow&logoColor=white)](https://www.tensorflow.org/)
 [![scikitlearn](https://img.shields.io/badge/scikitlearn-14354C?style=for-the-badge&logo=scikitlearn&logoColor=white)](https://geoffboeing.com/2016/11/osmnx-python-street-networks/)
 [![Flask](https://img.shields.io/badge/flask-14354C?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/en/2.0.x/)
