@@ -1,6 +1,6 @@
 
 ## **Bio**
----
+
 ### **About Me**
 I am a Researcher/Ph.D. Candidate at Aalto University.
 My research interests include Geometry, Architecture, Information Theory, and Computer Science.
@@ -16,7 +16,7 @@ My research interests include Geometry, Architecture, Information Theory, and Co
 
 
 ## **Skills**
----
+
 ### Computation
 [![Python](https://img.shields.io/badge/Python-436b95?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/psf-landing/)
 [![SQL](https://img.shields.io/badge/SQL-14354C?style=for-the-badge&logo=SQLite&logoColor=white)](https://en.wikipedia.org/wiki/SQL)
@@ -64,7 +64,7 @@ My research interests include Geometry, Architecture, Information Theory, and Co
 [![Rhino](https://img.shields.io/badge/Rhino-436b95?style=for-the-badge&logo=&logoColor=white)](https://www.rhino3d.com/)
 [![Grasshoper](https://img.shields.io/badge/Grasshopper-436b95?style=for-the-badge&logo=&logoColor=white)](https://en.wikipedia.org/wiki/Grasshopper_3D#:~:text=Grasshopper%20is%20a%20visual%20programming,dragging%20components%20onto%20a%20canvas.)
 [![Adobe Suite](https://img.shields.io/badge/Adobe_Suite-436b95?style=for-the-badge&logo=&logoColor=white)](https://www.adobe.com/creativecloud.html)
----
+
 
 
 ## **GitHub Stats**
@@ -76,5 +76,5 @@ My research interests include Geometry, Architecture, Information Theory, and Co
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=geometrein&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Geometrein GitHub Stats" />
 </a>
 
----
+
 
