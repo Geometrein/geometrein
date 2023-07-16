@@ -5,7 +5,7 @@ I am a curious Data Scientist with a strong passion for finding and understandin
 
 **Learn More:**
 
-[![Skills](https://img.shields.io/badge/Skills-0077B5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Geometrein/Geometrein/skills.md)
+[![Skills](https://img.shields.io/badge/Skills-0077B5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Geometrein/geometrein/blob/main/skills.md)
 [![Medium Badge](https://img.shields.io/badge/Medium-303030?style=for-the-badge&logo=medium&logoColor=white)](https://geometrein.medium.com/)
 [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/geometrein/)
 
