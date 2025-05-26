@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Tigran Khachatryan</title>
-    <link>http://localhost:1313/geometrein/tags/</link>
+    <link>https://geometrein.github.io/geometrein/tags/</link>
     <description>Recent content in Tags on Tigran Khachatryan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/geometrein/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://geometrein.github.io/geometrein/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>City Bikes</title>
-      <link>http://localhost:1313/geometrein/tags/city-bikes/</link>
+      <link>https://geometrein.github.io/geometrein/tags/city-bikes/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/geometrein/tags/city-bikes/</guid>
+      <guid>https://geometrein.github.io/geometrein/tags/city-bikes/</guid>
       <description></description>
     </item>
     <item>
       <title>EDA</title>
-      <link>http://localhost:1313/geometrein/tags/EDA/</link>
+      <link>https://geometrein.github.io/geometrein/tags/EDA/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/geometrein/tags/EDA/</guid>
+      <guid>https://geometrein.github.io/geometrein/tags/EDA/</guid>
       <description></description>
     </item>
     <item>
       <title>Helsinki</title>
-      <link>http://localhost:1313/geometrein/tags/helsinki/</link>
+      <link>https://geometrein.github.io/geometrein/tags/helsinki/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/geometrein/tags/helsinki/</guid>
+      <guid>https://geometrein.github.io/geometrein/tags/helsinki/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/geometrein/tags/python/</link>
+      <link>https://geometrein.github.io/geometrein/tags/python/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/geometrein/tags/python/</guid>
+      <guid>https://geometrein.github.io/geometrein/tags/python/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Tigran Khachatryan</title>
-    <link>http://localhost:1313/geometrein/docs/</link>
+    <link>https://geometrein.github.io/geometrein/docs/</link>
     <description>Recent content in Docs on Tigran Khachatryan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/geometrein/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://geometrein.github.io/geometrein/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/geometrein/docs/about_me/</link>
+      <link>https://geometrein.github.io/geometrein/docs/about_me/</link>
       <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/geometrein/docs/about_me/</guid>
+      <guid>https://geometrein.github.io/geometrein/docs/about_me/</guid>
       <description>&lt;h2 id=&#34;about-me&#34;&gt;&#xA;  About Me&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#about-me&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;</description>
     </item>
     <item>
       <title>Curriculum Vitae</title>
-      <link>http://localhost:1313/geometrein/docs/cv/</link>
+      <link>https://geometrein.github.io/geometrein/docs/cv/</link>
       <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/geometrein/docs/cv/</guid>
+      <guid>https://geometrein.github.io/geometrein/docs/cv/</guid>
       <description>&lt;h2 id=&#34;curriculum-vitae&#34;&gt;&#xA;  Curriculum Vitae&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#curriculum-vitae&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;</description>
     </item>
   </channel>

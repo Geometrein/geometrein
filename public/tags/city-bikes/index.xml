@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>City Bikes on Tigran Khachatryan</title>
-    <link>http://localhost:1313/geometrein/tags/city-bikes/</link>
+    <link>https://geometrein.github.io/geometrein/tags/city-bikes/</link>
     <description>Recent content in City Bikes on Tigran Khachatryan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/geometrein/tags/city-bikes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://geometrein.github.io/geometrein/tags/city-bikes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BlogPost Template</title>
-      <link>http://localhost:1313/geometrein/posts/00_helsinki_city_bikes_eda/</link>
+      <link>https://geometrein.github.io/geometrein/posts/00_helsinki_city_bikes_eda/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/geometrein/posts/00_helsinki_city_bikes_eda/</guid>
+      <guid>https://geometrein.github.io/geometrein/posts/00_helsinki_city_bikes_eda/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;&#xA;  Introduction&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;What are Helsinki City bikes?&#xA;Helsinki City Bikes are shared bicycles available to the public in Helsinki and Espoo metropolitan areas.&#xA;The main aim of the Helsinki city bike system is to address the so-called last-mile problem present in all distribution networks.&#xA;The city bikes were introduced in 2016 as a pilot project with only 46 bike stations available in Helsinki.&#xA;After becoming popular among the citizens, Helsinki city decided to gradually expand the bike network.&#xA;In the period between 2017 and 2019, approximately one hundred stations were being added to the network each year.&#xA;By 2019 the bike network reached its complete state with only 7 stations being added in 2020.&#xA;As of 2020, there were 3,510 bikes and 350 stations operating in Helsinki and Espoo.&lt;/p&gt;</description>
     </item>
   </channel>
