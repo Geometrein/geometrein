@@ -1,6 +1,6 @@
 ---
 author: "Tigran Khachatryan"
-date: 2021-05-11
+date: 2021-05-17
 linktitle: Helsinki City Bikes Network Analysis
 menu:
   main:
@@ -43,9 +43,7 @@ The graph below illustrates bike usage in different areas of Helsinki during 202
 As expected the central Helsinki is the most active region in terms of geographic mobility.
 However, as pointed out in the first part of this article, the geographic centre of Helsinki and the centre of Helsinki bike network are not the same.
 
-## Where is the centre of the Helsinki city bike network?
-
-### Network Centrality Measures
+## Network Centrality Measures
 
 Complex networks by definition are highly heterogeneous structures.
 This often results in some parts of the network being more information-rich than others.
