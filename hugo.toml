@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://geometrein.github.io/geometrein/'
 languageCode = 'en-us'
 title = 'Tigran Khachatryan'
 theme = 'hugo-book'
