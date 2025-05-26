@@ -44,7 +44,7 @@ Given the right-skewed distribution of the data, the averages are slightly skewe
 
 ## When are the City Bikes used?
 
-![daily rides_between 2016_2020](/images/helsinki_city_bikes/helsinki_city_bikes_daily_rides_2016_2020.png)
+![daily rides_between 2016_2020](images/helsinki_city_bikes/helsinki_city_bikes_daily_rides_2016_2020.png)
 
 Above you can see the number of daily bike trips since the launch of the City bike system. As we can see expanding the coverage of the network has a huge impact on the number of trips made by the citizens. It is also visible that 2020 was the first year when bike usage declined. There are multiple possible explanations. This decrease can be due to the COVID-19 pandemic or because the city bike network reached the end of its growth phase.
 
