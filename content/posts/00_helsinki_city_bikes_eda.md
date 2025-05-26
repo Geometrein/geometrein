@@ -38,7 +38,7 @@ The city bike system has grown significantly since 2016, however, how the city b
 If we look at the individual trips made drug the last 5 years, we will see that the average ride duration is around 13 minutes while the average travelled distance is approximately 2242 meters(1.4 miles).
 Given the right-skewed distribution of the data, the averages are slightly skewed and the majority of trips actually last from 4–8 minutes and cover a distance of 1700 meters (approx.1 mile).
 
-![ride_duration_distribution_2016_2020](/images/helsinki_city_bikes/ride_duration_distribution_2016_2020.png)
+![ride_duration_distribution_2016_2020](./images/helsinki_city_bikes/ride_duration_distribution_2016_2020.png)
 
 ![ride_distance_distribution_2016_2020](/images/helsinki_city_bikes/ride_distance_distribution_2016_2020.png)
 

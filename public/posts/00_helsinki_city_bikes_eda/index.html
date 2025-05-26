@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/geometrein/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=geometrein/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  Introduction
+  #
+
+What are Helsinki City bikes?
+Helsinki City Bikes are shared bicycles available to the public in Helsinki and Espoo metropolitan areas.
+The main aim of the Helsinki city bike system is to address the so-called last-mile problem present in all distribution networks.
+The city bikes were introduced in 2016 as a pilot project with only 46 bike stations available in Helsinki.
+After becoming popular among the citizens, Helsinki city decided to gradually expand the bike network.
+In the period between 2017 and 2019, approximately one hundred stations were being added to the network each year.
+By 2019 the bike network reached its complete state with only 7 stations being added in 2020.
+As of 2020, there were 3,510 bikes and 350 stations operating in Helsinki and Espoo.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/geometrein/posts/00_helsinki_city_bikes_eda/">
+  <meta property="og:site_name" content="Tigran Khachatryan">
+  <meta property="og:title" content="BlogPost Template">
+  <meta property="og:description" content="Introduction # What are Helsinki City bikes? Helsinki City Bikes are shared bicycles available to the public in Helsinki and Espoo metropolitan areas. The main aim of the Helsinki city bike system is to address the so-called last-mile problem present in all distribution networks. The city bikes were introduced in 2016 as a pilot project with only 46 bike stations available in Helsinki. After becoming popular among the citizens, Helsinki city decided to gradually expand the bike network. In the period between 2017 and 2019, approximately one hundred stations were being added to the network each year. By 2019 the bike network reached its complete state with only 7 stations being added in 2020. As of 2020, there were 3,510 bikes and 350 stations operating in Helsinki and Espoo.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-05-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-05-11T00:00:00+00:00">
+    <meta property="article:tag" content="Helsinki">
+    <meta property="article:tag" content="City Bikes">
+    <meta property="article:tag" content="EDA">
+    <meta property="article:tag" content="Python">
+<title>Helsinki City Bikes EDA | Tigran Khachatryan</title>
+<link rel="icon" href="/geometrein/favicon.png" >
+<link rel="manifest" href="/geometrein/manifest.json">
+<link rel="canonical" href="http://localhost:1313/geometrein/posts/00_helsinki_city_bikes_eda/">
+<link rel="stylesheet" href="/geometrein/book.min.26ab4dc3f6076ceda2f9c263aa4029ae3341dbcce339f901aa432b11da6e5894.css" integrity="sha256-JqtNw/YHbO2i&#43;cJjqkAprjNB28zjOfkBqkMrEdpuWJQ=" crossorigin="anonymous">
+  <script defer src="/geometrein/fuse.min.js"></script>
+  <script defer src="/geometrein/en.search.min.3857c3d348218329079c9ef6c4d6518aeaf94f36c8007bea506eec63813e6891.js" integrity="sha256-OFfD00ghgykHnJ72xNZRiur5TzbIAHvqUG7sY4E&#43;aJE=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/geometrein/"><span>Tigran Khachatryan</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/geometrein/docs/about_me/" class="">About Me</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/geometrein/docs/cv/" class="">Curriculum Vitae</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/geometrein/posts/"  >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/geometrein/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Helsinki City Bikes EDA</h3>
+
+  <label for="toc-control">
+    
+    <img src="/geometrein/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#what-the-average-ride-looks-like">What the average ride looks like?</a></li>
+    <li><a href="#when-are-the-city-bikes-used">When are the City Bikes used?</a></li>
+    <li><a href="#which-stations-are-the-most-popular">Which stations are the most popular?</a></li>
+    <li><a href="#which-trips-are-the-most-popular">Which trips are the most popular?</a></li>
+    <li><a href="#does-the-weather-affect-city-bike-usage">Does the weather affect city bike usage?</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    Helsinki City Bikes EDA
+  </h1>
+  
+  <div class="flex align-center text-small book-post-date">
+    <img src="/geometrein/svg/calendar.svg" class="book-icon " alt="" />
+    <span>May 11, 2021</span>
+  </div>
+
+
+
+  
+  <div class="text-small">
+    
+      <a href="/geometrein/categories/Spatial-Data-Science/">Spatial Data Science</a>, 
+      <a href="/geometrein/categories/Python/">Python</a>
+  </div>
+  
+
+  
+  <div class="text-small">
+    
+      <a href="/geometrein/tags/helsinki/">Helsinki</a>, 
+      <a href="/geometrein/tags/city-bikes/">City Bikes</a>, 
+      <a href="/geometrein/tags/EDA/">EDA</a>, 
+      <a href="/geometrein/tags/python/">Python</a>
+  </div>
+  
+
+
+  <div class="book-post-content"><h2 id="introduction">
+  Introduction
+  <a class="anchor" href="#introduction">#</a>
+</h2>
+<p>What are Helsinki City bikes?
+Helsinki City Bikes are shared bicycles available to the public in Helsinki and Espoo metropolitan areas.
+The main aim of the Helsinki city bike system is to address the so-called last-mile problem present in all distribution networks.
+The city bikes were introduced in 2016 as a pilot project with only 46 bike stations available in Helsinki.
+After becoming popular among the citizens, Helsinki city decided to gradually expand the bike network.
+In the period between 2017 and 2019, approximately one hundred stations were being added to the network each year.
+By 2019 the bike network reached its complete state with only 7 stations being added in 2020.
+As of 2020, there were 3,510 bikes and 350 stations operating in Helsinki and Espoo.</p>
+<blockquote>
+<p>Since 2016 more than 10.000.000 rides have been made.
+The total distance of the trips is 25.291.523 kilometres.
+To put that in perspective 25.3 million kilometres is 65 times the distance to the moon.
+The total time all residents spent riding the bikes is approximately 280 Years and 4 months.</p></blockquote>
+<p>In order to use the city bikes, citizens purchase access for a day, week or the entire cycling season that lasts from April to November.
+All passes include an unlimited number of 30-minute bike rides. For an extra fee of 1€/hour, you can use the bike for longer.
+Bikes are picked up and returned to stations that are located all around Helsinki and Espoo.</p>
+<h2 id="what-the-average-ride-looks-like">
+  What the average ride looks like?
+  <a class="anchor" href="#what-the-average-ride-looks-like">#</a>
+</h2>
+<p>The city bike system has grown significantly since 2016, however, how the city bikes are used has not changed substantially.
+If we look at the individual trips made drug the last 5 years, we will see that the average ride duration is around 13 minutes while the average travelled distance is approximately 2242 meters(1.4 miles).
+Given the right-skewed distribution of the data, the averages are slightly skewed and the majority of trips actually last from 4–8 minutes and cover a distance of 1700 meters (approx.1 mile).</p>
+<p><img src="./images/helsinki_city_bikes/ride_duration_distribution_2016_2020.png" alt="ride_duration_distribution_2016_2020" /></p>
+<p><img src="/images/helsinki_city_bikes/ride_distance_distribution_2016_2020.png" alt="ride_distance_distribution_2016_2020" /></p>
+<h2 id="when-are-the-city-bikes-used">
+  When are the City Bikes used?
+  <a class="anchor" href="#when-are-the-city-bikes-used">#</a>
+</h2>
+<p><img src="/images/helsinki_city_bikes/helsinki_city_bikes_daily_rides_2016_2020.png" alt="daily rides_between 2016_2020" /></p>
+<p>Above you can see the number of daily bike trips since the launch of the City bike system. As we can see expanding the coverage of the network has a huge impact on the number of trips made by the citizens. It is also visible that 2020 was the first year when bike usage declined. There are multiple possible explanations. This decrease can be due to the COVID-19 pandemic or because the city bike network reached the end of its growth phase.</p>
+<p>If we look at the heatmap below we can see a well-established daily usage pattern. The Most intensive bike usage occurs from 6:00 to 8:00 and from 16:00 to 18:00 on weekdays. This shows that bikes are actively used by commuters around the beginning and the end of the working day.</p>
+<p><img src="/images/helsinki_city_bikes/ride_temporal_patterns_2016_2020.png" alt="temporal_pattern_of_the_rides" /></p>
+<p>On weekends, however, the usage pattern is different. Seems like Helsinkis’ citizens prefer to kick off the weekend a little late. The most active hours are between 15:00 and 17:00. Interestingly enough, the usage of city bikes is higher around midnight on weekends. This could mean that on weekends city bikes are used as a substitute when the other forms of public transport are no longer available.</p>
+<p>Since the City bikes are actively used by commuters, it is natural to assume that the Covid pandemic and the transition to remote work had some effect on city bike usage. The graph below illustrates bike usage patterns for the past three years(2018–2020).</p>
+<p><img src="/images/helsinki_city_bikes/ride_temporal_pattern_of_the_rides_2018_2020.png" alt="temporal_pattern_of_the_rides_2018_2020" /></p>
+<p>These graphs already illustrate that there is some difference in 2020 bike usage patterns. Besides the decrease in the overall bike usage, the number of trips during the rush hours has also decreased.</p>
+<h2 id="which-stations-are-the-most-popular">
+  Which stations are the most popular?
+  <a class="anchor" href="#which-stations-are-the-most-popular">#</a>
+</h2>
+<p><img src="/images/helsinki_city_bikes/top_stations_by_departure_since_2016.png" alt="top_stations_by_departure_since_2016" />
+<img src="/images/helsinki_city_bikes/top_stations_by_arrival_since_2016.png" alt="top_stations_by_arrival_since_2016" /></p>
+<p>As one can expect not all stations are used equally. In 2016 the station next to the Kamppi metro station(Central Helsinki) was the most popular one. However, since 2017 Itämerentori has become the undisputed champion by usage. Seeing Itämerentori and Töölönlahdenkatu as the most popular stations might be surprising, however, this popularity is explained by their location within the city bike network. While these stations are not in the centre of Helsinki they are grouped around the “centre” of the bike network. In 2016, when there were less than 50 stations, Kamppi was at the structural centre of the network. However, with the expansion of the network towards northern Helsinki the centre of the bike network moved north too. Because of this Itämerentori and Töölönlahdenkatu stations gained more “important” role within the whole network.</p>
+<p>One boundary condition that can affect this list is bike availability in a given station. If there are no bikes available, then the dataset will not reflect the demand for bikes but rather their availability. What makes Itämerentori and Töölönlahdenkatu stations lively is that they are popular stations for both departures and returns. This ensures bike availability at all times and increases station usage.</p>
+<p><img src="/images/helsinki_city_bikes/monthly_heatmap_animation.gif" alt="monthly_heatmap_animation" /></p>
+<p>Another interesting observation is that the popularity of bike stations doesn&rsquo;t change substantially throughout the year.
+This tendency is illustrated in the animated heatmap above.</p>
+<h2 id="which-trips-are-the-most-popular">
+  Which trips are the most popular?
+  <a class="anchor" href="#which-trips-are-the-most-popular">#</a>
+</h2>
+<p>The table below shows the top 6 most common origin-destination pairs. The first two rows illustrate the important role of the city bikes on the Aalto University campus. Since the opening of the metro station next to Aalto University, city bikes became a crucial transportation stream for connecting on-campus housing with transportation hubs.</p>
+<p><img src="/images/helsinki_city_bikes/od_heatmap.png" alt="od_heatmap" /></p>
+<p>*Any resemblance to the flag of Finland is purely coincidental :)</p>
+<h2 id="does-the-weather-affect-city-bike-usage">
+  Does the weather affect city bike usage?
+  <a class="anchor" href="#does-the-weather-affect-city-bike-usage">#</a>
+</h2>
+<p>An intuitive assumption would suggest that there should be a link between air temperature and the use of city bikes.
+The graph below illustrates that most of the rides occur when the air temperature is between 10 and 21 degrees.</p>
+<p><img src="/images/helsinki_city_bikes/rides_vs_temps.png" alt="ride_vs_temps" /></p>
+<p>Nevertheless, there is no enough evidence to confidently conclude that bike usage is linked to air temperature. Given the multitude of potential factors that can affect the rides, a concrete causal relationship between these measurements cannot be established. For instance, in Helsinki, the air temperature can be high but it can be accompanied by rain or high wind speed. The tendency shown in the graph could be the result of other external factors. Unfortunately, the underlying dataset does not contain information about other environmental factors.</p>
+<p>Additionally, it’s important to note that city bikes are available from April until October and not throughout the whole year.
+This means that bike usage, in general, is always going to occur roughly within the same temperature range.
+Colder temperatures will coincide with the start and the end of the cycling season when bike usage is normally low.
+On the other hand, warmer temperatures will correspond to the summer seasons and the July holidays.
+Interestingly enough out of all holidays that fall within this time frame, only Juhannus (Midsummer) has a distinct effect on city bike usage(graph below).</p>
+<p><img src="/images/helsinki_city_bikes/weekly_rides_by_year.png" alt="weekly_rides" /></p>
+<h2 id="conclusion">
+  Conclusion
+  <a class="anchor" href="#conclusion">#</a>
+</h2>
+<p>In this article, we looked at the Helsinki city bike system through the lens of descriptive statistics.
+This article barely scratched the surface of all the possible analyses that can be performed on the underlying dataset.
+Those interested in their own exploration can find the dataset on <a href="https://www.kaggle.com/datasets/geometrein/helsinki-city-bikes">Kaggle</a>.
+The second part of the article will analyse the Helsinki city bike system as a complex transportation network.</p>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/master/exampleSite/content/posts/00_helsinki_city_bikes_eda.md" target="_blank" rel="noopener">
+      <img src="/geometrein/svg/edit.svg" class="book-icon" alt="" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#what-the-average-ride-looks-like">What the average ride looks like?</a></li>
+    <li><a href="#when-are-the-city-bikes-used">When are the City Bikes used?</a></li>
+    <li><a href="#which-stations-are-the-most-popular">Which stations are the most popular?</a></li>
+    <li><a href="#which-trips-are-the-most-popular">Which trips are the most popular?</a></li>
+    <li><a href="#does-the-weather-affect-city-bike-usage">Does the weather affect city bike usage?</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
