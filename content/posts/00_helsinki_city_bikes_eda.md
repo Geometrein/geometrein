@@ -56,7 +56,7 @@ On weekends, however, the usage pattern is different. Seems like Helsinkis’ ci
 
 Since the City bikes are actively used by commuters, it is natural to assume that the Covid pandemic and the transition to remote work had some effect on city bike usage. The graph below illustrates bike usage patterns for the past three years(2018–2020).
 
-![temporal_pattern_of_the_rides_2018_2020](/images/helsinki_city_bikes/ride_temporal_pattern_of_the_rides_2018_2020.png)
+![temporal_pattern_of_the_rides_2018_2020](../../images/helsinki_city_bikes/ride_temporal_pattern_of_the_rides_2018_2020.png)
 
 
 These graphs already illustrate that there is some difference in 2020 bike usage patterns. Besides the decrease in the overall bike usage, the number of trips during the rush hours has also decreased.
