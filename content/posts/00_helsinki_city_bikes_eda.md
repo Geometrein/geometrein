@@ -50,7 +50,7 @@ Above you can see the number of daily bike trips since the launch of the City bi
 
 If we look at the heatmap below we can see a well-established daily usage pattern. The Most intensive bike usage occurs from 6:00 to 8:00 and from 16:00 to 18:00 on weekdays. This shows that bikes are actively used by commuters around the beginning and the end of the working day.
 
-![temporal_pattern_of_the_rides](/images/helsinki_city_bikes/ride_temporal_patterns_2016_2020.png)
+![temporal_pattern_of_the_rides](../images/helsinki_city_bikes/ride_temporal_patterns_2016_2020.png)
 
 On weekends, however, the usage pattern is different. Seems like Helsinkis’ citizens prefer to kick off the weekend a little late. The most active hours are between 15:00 and 17:00. Interestingly enough, the usage of city bikes is higher around midnight on weekends. This could mean that on weekends city bikes are used as a substitute when the other forms of public transport are no longer available.
 
