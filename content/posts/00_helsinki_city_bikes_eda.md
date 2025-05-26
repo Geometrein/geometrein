@@ -1,6 +1,6 @@
 ---
 author: "Tigran Khachatryan"
-date: 2021-05-11
+date: 2021-05-17
 linktitle: Helsinki City Bikes EDA
 menu:
   main:
