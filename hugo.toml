@@ -12,7 +12,7 @@ disablePathToLower = true
 
 [caches]
   [caches.images]
-    dir = ':cacheDir/images'
+    dir = ':cacheDir/geometrein/images'
 
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
