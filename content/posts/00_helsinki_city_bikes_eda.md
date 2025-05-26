@@ -7,7 +7,7 @@ menu:
     parent: tutorials
 #next: /path/to/previous/post
 #prev: /path/to/next/post
-title: BlogPost Template
+title: Helsinki City Bikes EDA
 weight: 10
 draft: false
 tags: ["helsinki", "city bikes", "EDA", "python"]
