@@ -56,9 +56,9 @@ Taking this relativity into account, several centrality measures have been propo
 
 ### Degree Centrality
 
-{{</* katex display=true >}}
+{{< katex display=true >}}
 C_D(v) = \deg(v) = |\{u \in V : (v, u) \in E\}|
-{{< /katex */>}}
+{{< /katex >}}
 
 Degree centrality is the most simple centrality measure to understand and compute.
 “Degree” of a node refers to the number of nodes that a given node is connected to.
@@ -94,9 +94,9 @@ This explains both the regularity of the trips and the inflow of people from dif
 
 ### Betweenness Centrality
 
-{{</* katex display=true >}}
+{{< katex display=true >}}
 C_B(v) = \sum_{s \ne v \ne t} \frac{\sigma_{st}(v)}{\sigma_{st}}
-{{< /katex */>}}
+{{< /katex >}}
 
 The betweenness centrality captures how much a given node is “in-between” others.
 This measure calculates the shortest paths between all the nodes of the network and assigns each node a measure based on the number of shortest paths going through the target node.
@@ -125,13 +125,13 @@ However, as we have seen in the previous part of this article long trips are not
 
 ### Eigenvector Centrality & PageRank
 
-{{</* katex display=true >}}
+{{< katex display=true >}}
 C_E(v) = \frac{1}{\lambda} \sum_{u \in V} A_{vu} \, C_E(u)
-{{< /katex */>}}
+{{< /katex >}}
 
-{{</* katex display=true >}}
+{{< katex display=true >}}
 PR(v) = \frac{1 - d}{N} + d \sum_{u \in \text{In}(v)} \frac{PR(u)}{\deg^{+}(u)}
-{{< /katex */>}}
+{{< /katex >}}
 
 Eigenvector centrality measures a node’s importance within the network while giving consideration to the importance of its neighbours.
 Connections to high-scoring eigenvector centrality nodes contribute more to the score than equal connections to low-scoring nodes.
