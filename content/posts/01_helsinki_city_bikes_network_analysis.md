@@ -19,13 +19,13 @@ categories: ["Spatial Data Science", "Python"]
 For the past decades, transportation systems are commonly analyzed as networks.
 This abstraction allows to reduce the amount of information available and focus primarily on the internal structure of the underlying systems.
 
-![helsinki_bike_network](../../images/helsinki_city_bikes/graph_theory.png)
-
 This idea is certainly not novel in [mathematics](https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg) or urban planning. However, the recent advances in computational technologies and GIS frameworks enabled new pragmatic applications of graph-theoretical ideas in the field of geographic mobility.
 
 >Within the context of transportation, the term network refers to the framework of routes within a system of locations, identified as nodes.
 A route is a single link between two nodes that are part of a larger network that can refer to tangible routes such as roads and rails, or less tangible routes such as air and sea corridors.
 sad
+
+![helsinki_bike_network](../../images/helsinki_city_bikes/graph_theory.png)
 
 
 ![helsinki_bike_network](../../images/helsinki_city_bikes/helsinki_bike_network_black_and_white.png)
@@ -56,9 +56,9 @@ Taking this relativity into account, several centrality measures have been propo
 
 ### Degree Centrality
 
-$$
+{{</* katex display=true >}}
 C_D(v) = \deg(v) = |\{u \in V : (v, u) \in E\}|
-$$
+{{< /katex */>}}
 
 Degree centrality is the most simple centrality measure to understand and compute.
 “Degree” of a node refers to the number of nodes that a given node is connected to.
@@ -93,9 +93,11 @@ Quick google search will reveal that it's located across the street from a large
 This explains both the regularity of the trips and the inflow of people from different suburban areas.
 
 ### Betweenness Centrality
-$$
+
+{{</* katex display=true >}}
 C_B(v) = \sum_{s \ne v \ne t} \frac{\sigma_{st}(v)}{\sigma_{st}}
-$$
+{{< /katex */>}}
+
 The betweenness centrality captures how much a given node is “in-between” others.
 This measure calculates the shortest paths between all the nodes of the network and assigns each node a measure based on the number of shortest paths going through the target node.
 The graph below illustrates the city bike stations by betweenness centrality.
@@ -123,13 +125,13 @@ However, as we have seen in the previous part of this article long trips are not
 
 ### Eigenvector Centrality & PageRank
 
-$$
+{{</* katex display=true >}}
 C_E(v) = \frac{1}{\lambda} \sum_{u \in V} A_{vu} \, C_E(u)
-$$
+{{< /katex */>}}
 
-$$
+{{</* katex display=true >}}
 PR(v) = \frac{1 - d}{N} + d \sum_{u \in \text{In}(v)} \frac{PR(u)}{\deg^{+}(u)}
-$$
+{{< /katex */>}}
 
 Eigenvector centrality measures a node’s importance within the network while giving consideration to the importance of its neighbours.
 Connections to high-scoring eigenvector centrality nodes contribute more to the score than equal connections to low-scoring nodes.
@@ -195,17 +197,3 @@ We can see that the Fluid community detection method confirms the communities id
 
 ## Conclusion
 In this part of the article, the Helsinki city bike network was briefly analyzed as a complex network. Multiple centrality measures were applied to the network and important centres were identified. Tree community detection algorithms revealed different possible groupings of the nodes within the network. The next part of the article will take a look at how machine learning methods can be applied to further enhance understanding of relationships within the network.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
