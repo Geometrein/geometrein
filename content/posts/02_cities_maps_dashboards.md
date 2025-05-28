@@ -62,7 +62,7 @@ For a variety of technical reasons the data produced by citizens is often availa
 This is great for machines but looking at this data will often make your eyes bleed.
 DashMap.io empowers non-tech users by providing access to open data through interactive and accessible dashboards.
 
-![dashmap_demo](../../images/cities_maps_dashboards/dashmap_demo.png)
+![dashmap_demo](../../images/cities_maps_dashboards/dashmap_demo.gif)
 
 The layout of Dashmap.io features a dashboard juxtaposed with an interactive map.
 The map can be used to filter data by postal areas and the dashboards are updates based on the selections made on the map.
