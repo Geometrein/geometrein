@@ -5,8 +5,6 @@ linktitle: Helsinki City Bikes Network Analysis
 menu:
   main:
     parent: tutorials
-#next: /path/to/previous/post
-#prev: /path/to/next/post
 title: Helsinki City Bikes Network Analysis
 weight: 10
 draft: false

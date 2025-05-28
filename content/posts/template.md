@@ -5,8 +5,8 @@ linktitle: BlogPost Template
 menu:
   main:
     parent: tutorials
-#next: /path/to/previous/post
-#prev: /path/to/next/post
+#next: /path/to/next/post
+#prev: /path/to/previous/post
 title: BlogPost Template
 weight: 10
 draft: true # TODO: Set to false when ready to publish

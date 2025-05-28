@@ -5,8 +5,7 @@ linktitle: Helsinki City Bikes EDA
 menu:
   main:
     parent: tutorials
-#next: /path/to/previous/post
-#prev: /path/to/next/post
+next: /path/to/next/post
 title: Helsinki City Bikes EDA
 weight: 10
 draft: false
