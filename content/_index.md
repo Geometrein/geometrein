@@ -16,14 +16,17 @@ If you’re working on something ambitious and need a data partner, feel free to
 
 ## Socials
 
+
 {{% columns %}}
 
-[![Linkedin](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/geometrein/)
+"[![Linkedin](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/geometrein/)"
 
 <--->
 
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/Geometrein)
 
 <--->
+
 [![Medium](https://img.shields.io/badge/Medium-black?logo=medium&logoColor=white)](https://twitter.com/Geometrein)
+
 {{% /columns %}}
