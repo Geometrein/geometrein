@@ -16,7 +16,7 @@ If you’re working on something ambitious and need a data partner, feel free to
 
 ## Socials
 
-{{% columns [ratio="1:1"] %}}
+{{% columns %}}
 
 [![Linkedin](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/geometrein/)
 
